@@ -1,0 +1,1003 @@
+{
+  "getImgCode": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "异常信息"
+    },
+    "bizobj": {
+      "imgid": "58cb7a94afc8e",
+      "imgurl": "http://10.1.18.70/upload/201703170656368518.jpg"
+    }
+  },
+  "queryHospitals": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "医院列表获取成功"
+    },
+    "bizobj": [
+      {
+        "hospitalid": "236",
+        "hospitalname": "三叶总部",
+        "longitude": "120.171303",
+        "latitude": "30.25371"
+      },
+      {
+        "hospitalid": "288",
+        "hospitalname": "杭州三叶城西分院",
+        "longitude": "120.123047",
+        "latitude": "30.272909"
+      }
+    ]
+  },
+  "addAppointApply": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "预约成功"
+    },
+    "bizobj": {}
+  },
+  "getMedicalList": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": [
+      {
+        "medicalid": "11",
+        "patient_name": "3032002退休非公务员劳模",
+        "patient_sex": "男",
+        "dateInfo": [
+          "2017/03/23",
+          "周一",
+          "15:30"
+        ],
+        "patient_age": "12",
+        "hospital": "杭州口腔医院",
+        "department": "Vip口腔科室",
+        "docotr_name": "周炜丹",
+        "total_price": 2000
+      },
+      {
+        "medicalid": "22",
+        "patient_name": "3032002退休非公务员劳模",
+        "patient_sex": "女",
+        "dateInfo": [
+          "2017/03/23",
+          "周一",
+          "15:30"
+        ],
+        "patient_age": "12",
+        "hospital": "杭州口腔医院",
+        "department": "Vip口腔科室",
+        "docotr_name": "周炜丹",
+        "total_price": 5000
+      }
+    ],
+    "page_info": {
+      "cur_page": 2,
+      "page_size": 10,
+      "total_items": 21,
+      "total_pages": 3,
+      "latest_reception_time": "3"
+    }
+  },
+  "getApotList": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": [
+      {
+        "appointment_flag": "1",
+        "time": [
+          "2016/11/20",
+          "周日",
+          "10:30"
+        ],
+        "hospital": "杭州三叶口腔",
+        "status": "已就诊",
+        "doctorname": "医生名称",
+        "officename": "VIP科室",
+        "classname": "col1"
+      },
+      {
+        "appointment_flag": "0",
+        "time": [
+          "2016/10/28",
+          "周五",
+          ""
+        ],
+        "hospital": "杭州三叶口腔",
+        "status": "已取消",
+        "doctorname": "",
+        "officename": "",
+        "classname": "col2"
+      }
+    ],
+    "page_info": {
+      "cur_page": 2,
+      "page_size": 10,
+      "total_items": 21,
+      "total_pages": 3
+    }
+  },
+  "list": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": [
+      {
+        "topicid": "2",
+        "title": "整顿不良医疗广告",
+        "publishdate": "2015-6-4",
+        "entname": "杭州三叶口腔",
+        "summary": "发布非法医疗广告 民营医疗机构被停业整顿",
+        "imgurl": "https://www.baidu.com/img/bd_logo1.png"
+      },
+      {
+        "topicid": "5",
+        "title": "医疗广告管理办法(2016新版)",
+        "publishdate": "2015-8-9",
+        "entname": "隐秀分院",
+        "summary": "并从今日起向社会公开征求意见",
+        "imgurl": "https://www.baidu.com/img/bd_logo1.png"
+      }
+    ],
+    "page_info": {
+      "cur_page": 2,
+      "page_size": 10,
+      "total_items": 21,
+      "total_pages": 3
+    }
+  },
+  "time": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": {
+      "time": "2017-04-07"
+    }
+  },
+  "checkreg": {
+    "status": {
+      "error_code": 1,
+      "error_msg": "手机号已注册"
+    },
+    "bizobj": null
+  },
+  "register": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "注册成功"
+    },
+    "bizobj": {
+      "username": "李大山",
+      "sid": "weetrrtt"
+    }
+  },
+  "retPwd": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "重置成功"
+    }
+  },
+  "login": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "登录成功"
+    },
+    "bizobj": {
+      "username": "李大山",
+      "headurl": "https://www.baidu.com/img/bd_logo1.png",
+      "sid": "weetrrtt"
+    }
+  },
+  "getCode": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "发送成功"
+    }
+  },
+  "reportList": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": {
+      "patientName": "李三九",
+      "sex": "男",
+      "age": "34",
+      "nation": "汉族",
+      "doctorName": "杭州口腔医院有限公司",
+      "examTime": "2017-03-20",
+      "tel": "138****0139",
+      "report": [
+        {
+          "itemName": "颌面部检查",
+          "itemValue": [
+            "上下唇畸形",
+            "淋巴结肿大"
+          ]
+        },
+        {
+          "itemName": "黏膜检查",
+          "itemValue": [
+            "白斑:口角"
+          ]
+        },
+        {
+          "itemName": "X光检查",
+          "itemValue": [
+            {
+              "itemCode": "190",
+              "itemStr": "全景",
+              "attach": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3754692005,2004182368&fm=170&s=E2A020E49A402847550966B803005006&w=218&h=146&img.JPEG",
+              "width": 218,
+              "height":146
+            },
+            "备注:X光备注"
+          ]
+        },
+        {
+          "itemName": "牙体情况",
+          "itemValue": [
+            {
+              "itemCode": "195",
+              "itemStr": "照片",
+              "attach": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1801941484,1098047408&fm=170&s=9686C1A716852CE4153F04E10300901A&w=218&h=146&img.JPEG",
+              "width": 218,
+              "height":146
+            },
+            "备注:牙体备注",
+            "建议: 牙体牙髓科 口腔修复科 洁牙美牙科 其他建议牙体其它建议"
+          ]
+        },
+        {
+          "itemName": "牙周检查",
+          "itemValue": [
+            {
+              "itemCode": "210",
+              "itemStr": "牙周袋>=3mm",
+              "attach": "[{ \"type\":1,\"data_arr\": {\"t_r\":\"7 D \",\"t_l\":\"E \",\"b_r\":\"8 5 2 \",\"b_l\":\"D \"}}]"
+            },
+            "牙龈出血:1",
+            {
+              "itemCode": "212",
+              "itemStr": "牙齿松动I级",
+              "attach": "[{ \"type\":1,\"data_arr\": {\"t_r\":\"D \",\"t_l\":\"E \",\"b_r\":\"3 \",\"b_l\":\"D \"}}]"
+            },
+            "牙结石:+++",
+            {
+              "itemCode": "214",
+              "itemStr": "牙齿松动II级",
+              "attach": "[{ \"type\":1,\"data_arr\": {\"t_r\":\"B \",\"t_l\":\"E \",\"b_r\":\"3 \",\"b_l\":\"E \"}}]"
+            },
+            "色素沉着:+++",
+            {
+              "itemCode": "216",
+              "itemStr": "牙齿松动III级",
+              "attach": "[{ \"type\":1,\"data_arr\": {\"t_r\":\"\",\"t_l\":\"C \",\"b_r\":\"6 \",\"b_l\":\"D \"}}]"
+            },
+            "其他亚洲其它",
+            "建议: 口腔外科 儿童齿科 口腔修复科 口腔种植科 其他建议亚洲检查其它"
+          ]
+        }
+      ]
+    }
+  },
+  "topicInfo": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": {
+      "title": "整顿不良医疗广告整顿不良医疗广告整顿不良医疗广告整顿不良医疗广告整顿不良医疗广告",
+      "publishdate": "2015-6-4",
+      "entname": "商家名称",
+      "content": "<p>飞洒佛挡杀佛撒发撒地方撒发收的方式分发大水法所得1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p><img src='//www.baidu.com/img/bd_logo1.png'>"
+    }
+  },
+  "commentList": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": [
+      {
+        "author": "lidapang",
+        "commenttime": "2015-1-6",
+        "comment": "新闻很值得看新闻很值得看新闻很值得看新闻很值得看新闻很值得看新闻很值得看新闻很值得看新闻很值得看"
+      },
+      {
+        "author": "观察者",
+        "commenttime": "2016-2-8",
+        "comment": "还不错,好好看看还不错,好好看看还不错,好好看看还不错,好好看看还不错,好好看看还不错,好好看看还不错,好好看看"
+      }
+    ],
+    "page_info": {
+      "cur_page": 0,
+      "page_size": 20,
+      "total_items": 59,
+      "total_pages": 3
+    }
+  },
+  "topicList": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": [
+      {
+        "topicid": "2",
+        "title": "整顿不良医疗广告",
+        "publishdate": "2015-6-4",
+        "entname": "杭州三叶口腔",
+        "summary": "发布非法医疗广告 民营医疗机构被停业整顿民营医疗机构被停业整顿民营医疗机构被停业整顿民营医疗机构被停业整顿",
+        "imgurl": "//www.baidu.com/img/bd_logo1.png"
+      },
+      {
+        "topicid": "5",
+        "title": "医疗广告管理办法(2016新版)",
+        "publishdate": "2015-8-9",
+        "entname": "隐秀分院",
+        "summary": "1111111111111111111111111111111111111111111111111111111111111111111",
+        "imgurl": "//www.baidu.com/img/bd_logo1.png"
+      }
+    ],
+    "page_info": {
+      "cur_page": 0,
+      "page_size": 20,
+      "total_items": 59,
+      "total_pages": 3
+    }
+  },
+  "downLoadapp": {
+    "flag": true,
+    "url": "https://www.baidu.com",
+    "error_msg": "下载失败,稍后再试"
+  },
+  "getUserInfo": {
+    "sid": "e543862becc58a280189ce9dbe7d412e6f4f2a8a201704011344068087"
+  },
+  "case": {
+    "status": {
+      "error_code": 0,
+      "error_msg": "获取成功"
+    },
+    "bizobj": {
+      "medical_list": {
+        "medicalid": "0LWBIpB5T7S+nqN/vK5eIP///qUApqApAAEAAwAW",
+        "patient_name": "李三八",
+        "doctor_name": "杭州口腔医院城西分院",
+        "reception_time": "1490342731",
+        "date_info": [
+          "2017/03/24",
+          "周五",
+          "16:05"
+        ],
+        "hospital": "杭州城西口腔医院",
+        "patient_sex": "男",
+        "patient_age": "11",
+        "department": "信息科",
+        "total_price": "1286.65"
+      },
+      "reception_detail": {
+        "receptionId": "91188282565753745",
+        "receptionDate": "2017-03-24",
+        "docotrName": "刘八一",
+        "patientName": "李三八",
+        "parentHospitalName": "杭州城西口腔医院",
+        "hospitalId": "67",
+        "hospitalName": "杭州城西口腔医院",
+        "chiefComplaint": "这个是主诉",
+        "pastHistory": "这个是既往史",
+        "historyOfPresentIllness": "这个是仙病史",
+        "diagnosisList": [
+          {
+            "upperLeftTooth": "1",
+            "upperRightTooth": "2",
+            "lowerLeftTooth": "3",
+            "lowerRightTooth": "4",
+            "remark": "这个是诊断的请选择"
+          }
+        ],
+        "checkList": [
+          {
+            "upperLeftTooth": 12,
+            "upperRightTooth": 23,
+            "lowerLeftTooth": 2,
+            "lowerRightTooth": 6,
+            "remark": "这个是检查"
+          },
+          {
+            "upperLeftTooth": 12231,
+            "upperRightTooth": 233,
+            "lowerLeftTooth": 22,
+            "lowerRightTooth": 6,
+            "remark": "这是检查"
+          }
+        ],
+        "treatmentList": [
+          {
+            "upperLeftTooth": 1,
+            "upperRightTooth": 2,
+            "lowerLeftTooth": 3,
+            "lowerRightTooth": 4,
+            "remark": "这个是电子病历的处理"
+          }
+        ],
+        "planList": [
+          {
+            "upperLeftTooth": 4,
+            "upperRightTooth": 3,
+            "lowerLeftTooth": 2,
+            "lowerRightTooth": 1,
+            "remark": "这个是治疗计划"
+          }
+        ]
+      },
+      "charge_detail": {
+        "udcUserCode": "d0b5812290794fb4be9ea37fbcae5e20",
+        "patient": {
+          "patientId": "91188282565753742",
+          "parentHospitalId": "66",
+          "patientName": "李三八",
+          "patientSex": "男",
+          "patientIdNumber": "340321198903020011",
+          "patientBirth": 1143129600000,
+          "patientNation": "汉族",
+          "patientNativePlace": null,
+          "patientCareer": "学生",
+          "patientMarriage": "未婚",
+          "patientHomeAddr": "杭州",
+          "patientPhone": "0552-8016465",
+          "patientCompany": null,
+          "patientMobi": "13800000138",
+          "patientEmail": null,
+          "patientBloodType": "A型",
+          "allergicHistory": "头孢",
+          "latestMedicalDay": 1490342732130,
+          "medicalInsuranceType": 0,
+          "patientSource": null,
+          "patientType": null,
+          "medicalCard": "171703240002",
+          "medicalRecord": null,
+          "patientSpell": "LSB",
+          "createTime": 1490342725313,
+          "modifyTime": 1490342732130,
+          "patientCode": "00Z171703240002",
+          "medicalInsuranceCardType": null,
+          "remark": "患者信息的备注",
+          "imageNo": null,
+          "latestReceptionTime": 1490342731735,
+          "latestDoctorId": "505",
+          "latestExaminationFlag": 0
+        },
+        "radiateCharges": [
+          {
+            "radiate": {
+              "radiateId": "91188282565753766",
+              "receptionId": "91188282565753745",
+              "hospitalId": "67",
+              "radiateNo": "131703240001",
+              "registerId": null,
+              "outpatientNo": null,
+              "patientId": "91188282565753742",
+              "medicareCard": "171703240002",
+              "patientName": "李三八",
+              "patientSex": "男",
+              "patientAge": 11,
+              "positinTooth": "4A,t22,t23,t5,t8",
+              "chargeType": 0,
+              "billTime": 1490342863117,
+              "chargeCommitTime": 1490342863117,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "remark": null,
+              "chargeId": null,
+              "chargeStatus": 0,
+              "createTime": 1490342863117,
+              "modifyTime": 1490342863117,
+              "radiographicContent": "正畸专用柯达,CT片",
+              "radiographicNum": 5,
+              "radiographicTime": null,
+              "radiographicStatus": 0,
+              "userId": null,
+              "userName": null,
+              "toothType": null
+            },
+            "radiateContents": [
+              {
+                "radiateContentId": "91188282565753767",
+                "radiateId": "91188282565753766",
+                "positinTooth": "t6,4A,t22,t23,",
+                "radiographicContent": "正畸专用柯达",
+                "radiographicType": 0,
+                "radiographicNum": 4,
+                "radiographicTime": null,
+                "radiographicStatus": 0,
+                "userId": null,
+                "userName": null,
+                "isRefund": false,
+                "createTime": 1490342863509,
+                "modifyTime": 1490342863509,
+                "toothTypeId": "83257340295542303",
+                "toothType": null,
+                "chargeStatus": 0,
+                "callNum": null,
+                "callUserId": null,
+                "discountCharge": 140,
+                "officeId": null,
+                "officeName": null
+              },
+              {
+                "radiateContentId": "91188282565753769",
+                "radiateId": "91188282565753766",
+                "positinTooth": null,
+                "radiographicContent": "CT片",
+                "radiographicType": 1,
+                "radiographicNum": 1,
+                "radiographicTime": null,
+                "radiographicStatus": 0,
+                "userId": null,
+                "userName": null,
+                "isRefund": false,
+                "createTime": 1490342863509,
+                "modifyTime": 1490342863509,
+                "toothTypeId": "117",
+                "toothType": null,
+                "chargeStatus": 0,
+                "callNum": null,
+                "callUserId": null,
+                "discountCharge": 260,
+                "officeId": null,
+                "officeName": null
+              }
+            ],
+            "chargeChild": {
+              "chargeChildId": "91188282565753772",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 2,
+              "chargeObjId": "91188282565753766",
+              "hospitalId": "67",
+              "chargeTypeId": "346",
+              "chargeItemId": "27178",
+              "itemCode": "Y4000",
+              "itemName": "锥形束CT口腔成像",
+              "itemCharge": 260,
+              "itemUnitPrice": 260,
+              "itemUnitName": "次",
+              "itemNum": 1,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 260,
+              "selfChargeUp": 260,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "丙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342864030,
+              "createTime": 1490342864030,
+              "modifyTime": 1490342864030,
+              "isOut": false,
+              "itemStandardPrice": 260
+            },
+            "billNo": "131703240001"
+          },
+          {
+            "radiate": {
+              "radiateId": "91188282565753766",
+              "receptionId": "91188282565753745",
+              "hospitalId": "67",
+              "radiateNo": "131703240001",
+              "registerId": null,
+              "outpatientNo": null,
+              "patientId": "91188282565753742",
+              "medicareCard": "171703240002",
+              "patientName": "李三八",
+              "patientSex": 0,
+              "patientAge": 11,
+              "positinTooth": "t6,4A,t21,t23,",
+              "chargeType": 0,
+              "billTime": 1490342863117,
+              "chargeCommitTime": 1490342863117,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "remark": null,
+              "chargeId": null,
+              "chargeStatus": 0,
+              "createTime": 1490342863117,
+              "modifyTime": 1490342863117,
+              "radiographicContent": "柯达,CT片",
+              "radiographicNum": 2,
+              "radiographicTime": null,
+              "radiographicStatus": 0,
+              "userId": null,
+              "userName": null,
+              "toothType": null
+            },
+            "radiateContents": [
+              {
+                "radiateContentId": null,
+                "radiateId": null,
+                "positinTooth": null,
+                "radiographicContent": null,
+                "radiographicType": null,
+                "radiographicNum": null,
+                "radiographicTime": null,
+                "radiographicStatus": null,
+                "userId": null,
+                "userName": null,
+                "isRefund": null,
+                "createTime": null,
+                "modifyTime": null,
+                "toothTypeId": null,
+                "toothType": null,
+                "chargeStatus": null,
+                "callNum": null,
+                "callUserId": null,
+                "discountCharge": null,
+                "officeId": null,
+                "officeName": null
+              },
+              {
+                "radiateContentId": null,
+                "radiateId": null,
+                "positinTooth": null,
+                "radiographicContent": null,
+                "radiographicType": null,
+                "radiographicNum": null,
+                "radiographicTime": null,
+                "radiographicStatus": null,
+                "userId": null,
+                "userName": null,
+                "isRefund": null,
+                "createTime": null,
+                "modifyTime": null,
+                "toothTypeId": null,
+                "toothType": null,
+                "chargeStatus": null,
+                "callNum": null,
+                "callUserId": null,
+                "discountCharge": null,
+                "officeId": null,
+                "officeName": null
+              }
+            ],
+            "chargeChild": {
+              "chargeChildId": "91188282565753771",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 2,
+              "chargeObjId": "91188282565753766",
+              "hospitalId": "67",
+              "chargeTypeId": "346",
+              "chargeItemId": "47483",
+              "itemCode": "CY1000",
+              "itemName": "数字化成像（DR).",
+              "itemCharge": 140,
+              "itemUnitPrice": 35,
+              "itemUnitName": "次",
+              "itemNum": 4,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 140,
+              "selfChargeUp": 140,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "丙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342864025,
+              "createTime": 1490342864025,
+              "modifyTime": 1490342864025,
+              "isOut": false,
+              "itemStandardPrice": 35
+            },
+            "billNo": "131703240001"
+          }
+        ],
+        "treatmentCharges": [
+          {
+            "chargeChild": {
+              "chargeChildId": "91188282565753765",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 0,
+              "chargeObjId": "91188282565753763",
+              "hospitalId": "67",
+              "chargeTypeId": "361",
+              "chargeItemId": "62570",
+              "itemCode": "1130yyxzjtj",
+              "itemName": "1130隐秀正畸体检",
+              "itemCharge": 1130,
+              "itemUnitPrice": 1130,
+              "itemUnitName": "每次",
+              "itemNum": 1,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 1130,
+              "selfChargeUp": 1130,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "丙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342841605,
+              "createTime": 1490342841605,
+              "modifyTime": 1490342841605,
+              "isOut": false,
+              "itemStandardPrice": 1130
+            },
+            "billNo": "121703240003"
+          },
+          {
+            "chargeChild": {
+              "chargeChildId": "91188282565753764",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 0,
+              "chargeObjId": "91188282565753763",
+              "hospitalId": "67",
+              "chargeTypeId": "348",
+              "chargeItemId": "56738",
+              "itemCode": "GH0025",
+              "itemName": "种植名医初诊",
+              "itemCharge": 200,
+              "itemUnitPrice": 200,
+              "itemUnitName": "次",
+              "itemNum": 1,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 200,
+              "selfChargeUp": 200,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "丙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342841584,
+              "createTime": 1490342841584,
+              "modifyTime": 1490342841584,
+              "isOut": false,
+              "itemStandardPrice": 200
+            },
+            "billNo": "121703240003"
+          },
+          {
+            "chargeChild": {
+              "chargeChildId": "91188282565753757",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 0,
+              "chargeObjId": "91188282565753755",
+              "hospitalId": "67",
+              "chargeTypeId": "361",
+              "chargeItemId": "47547",
+              "itemCode": "JYYHTC1602",
+              "itemName": "677元洁牙套餐.",
+              "itemCharge": 677,
+              "itemUnitPrice": 677,
+              "itemUnitName": "全口",
+              "itemNum": 1,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 677,
+              "selfChargeUp": 677,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "丙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342816240,
+              "createTime": 1490342816240,
+              "modifyTime": 1490342816240,
+              "isOut": false,
+              "itemStandardPrice": 677
+            },
+            "billNo": "121703240002"
+          },
+          {
+            "chargeChild": {
+              "chargeChildId": "91188282565753756",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 0,
+              "chargeObjId": "91188282565753755",
+              "hospitalId": "67",
+              "chargeTypeId": "360",
+              "chargeItemId": "81290",
+              "itemCode": "YYKQZJJCTC",
+              "itemName": "1元口腔正畸检查套餐",
+              "itemCharge": 2,
+              "itemUnitPrice": 1,
+              "itemUnitName": "每人次",
+              "itemNum": 2,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 2,
+              "selfChargeUp": 2,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "丙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342816189,
+              "createTime": 1490342816189,
+              "modifyTime": 1490342816189,
+              "isOut": false,
+              "itemStandardPrice": 1
+            },
+            "billNo": "121703240002"
+          }
+        ],
+        "recipeCharges": [
+          {
+            "childRecipe": {
+              "recipeChildId": "91188282565753762",
+              "recipeId": "91188282565753758",
+              "medicineId": "2083",
+              "medicineName": "甲硝唑氯化钠注射液",
+              "specification": "100ml*0.5g",
+              "medicineUsage": "静脉滴注",
+              "medicineDosage": "100ml静脉滴注",
+              "medicineFrequency": "一日两次",
+              "recipeNo": 1,
+              "createTime": 1490342828258,
+              "modifyTime": 1490342828258,
+              "medicineCode": "36",
+              "hospitalId": "67",
+              "source": 1,
+              "chargeChildId": "91188282565753761"
+            },
+            "chargeChild": {
+              "chargeChildId": "91188282565753761",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 1,
+              "chargeObjId": "91188282565753758",
+              "hospitalId": "67",
+              "chargeTypeId": "363",
+              "chargeItemId": "2083",
+              "itemCode": "36",
+              "itemName": "甲硝唑氯化钠注射液",
+              "itemCharge": 2.76,
+              "itemUnitPrice": 2.76,
+              "itemUnitName": "袋",
+              "itemNum": 1,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 2.76,
+              "selfChargeUp": 2.76,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "乙",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342828331,
+              "createTime": 1490342828331,
+              "modifyTime": 1490342828331,
+              "isOut": false,
+              "itemStandardPrice": 2.76
+            },
+            "billNo": "111703240001"
+          },
+          {
+            "childRecipe": {
+              "recipeChildId": "91188282565753760",
+              "recipeId": "91188282565753758",
+              "medicineId": "470",
+              "medicineName": "氯化钠注射液250ml",
+              "specification": "2.25g/250ml",
+              "medicineUsage": "静脉滴注",
+              "medicineDosage": "250ml静脉滴注",
+              "medicineFrequency": "一日一次",
+              "recipeNo": 0,
+              "createTime": 1490342828258,
+              "modifyTime": 1490342828258,
+              "medicineCode": "24",
+              "hospitalId": "67",
+              "source": 1,
+              "chargeChildId": "91188282565753759"
+            },
+            "chargeChild": {
+              "chargeChildId": "91188282565753759",
+              "receptionId": "91188282565753745",
+              "chargeId": "0",
+              "patientId": "91188282565753742",
+              "patientName": "李三八",
+              "chargeItemType": 1,
+              "chargeObjId": "91188282565753758",
+              "hospitalId": "67",
+              "chargeTypeId": "363",
+              "chargeItemId": "470",
+              "itemCode": "24",
+              "itemName": "氯化钠注射液250ml",
+              "itemCharge": 3.89,
+              "itemUnitPrice": 3.89,
+              "itemUnitName": "瓶",
+              "itemNum": 1,
+              "discountRate": 1,
+              "discountType": 29,
+              "discountReason": null,
+              "discountCharge": 3.89,
+              "selfChargeUp": 3.89,
+              "medicalInsuranceType": 0,
+              "medicareTypeName": "甲",
+              "chargeStatus": 0,
+              "source": 1,
+              "doctorId": "505",
+              "doctorName": "杭州口腔医院城西分院",
+              "officeId": "166",
+              "officeName": "信息科",
+              "operatorId": "505",
+              "chargeCommitTime": 1490342828259,
+              "createTime": 1490342828259,
+              "modifyTime": 1490342828259,
+              "isOut": false,
+              "itemStandardPrice": 3.89
+            },
+            "billNo": "111703240001"
+          }
+        ]
+      }
+    }
+  }
+}
